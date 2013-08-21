@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <center>
+    <meta charset="utf-8">
+    <title>cadastro</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+	<link href="estilos/style.css" rel="stylesheet">
+    <link href="../bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      /* Override some defaults */
+      html, body {
+        background-color: #eee;
+      }
+      body {
+        padding-top: 40px; 
+      }
+      
+
+      /* The white background content wrapper */
+      .container > .content {
+        background-color: #99FFCC;
+        padding: 20px;
+        margin: 0 -20px; 
+        -webkit-border-radius: 10px 10px 10px 10px;
+           -moz-border-radius: 10px 10px 10px 10px;
+                border-radius: 10px 10px 10px 10px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      }
+
+	  .login-form {
+		margin-left: 20px;
+	  }
+	
+	  legend {
+		margin-right: -50px;
+		font-weight: bold;
+	  	color: #404040;
+	  }
+	  
+
+
+
+
+    </style>
+
+</head>
+
+
+<body>
+
+ <div id="topo">
+  <p><a href="http://www.google.com"><img src="Imagens/01.jpg" alt="Google" width="300" height="300"/></a></p>
+ </div>
+
+ <div id="corpo">
+ 
+ </div>
+ 
+ 
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="login-form">
+          <h2>Login</h2>
+          <form action="">
+            <fieldset>
+              <div class="clearfix">
+           <input type="campo de texto" placeholder="Usuário"> 
+				
+              </div>
+              <div class="clearfix">
+               <input type="senha" placeholder="Senha">
+              </div>
+              <button class="btn primary" type="submit">Entrar</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /container -->
+  <h2><center>Este é um site de coisas femininas, onde você pode explorar o máximo das tendências do momento</li></center>
+	<center>seja roupas, sapatos, bolsas ou acessórios. Enfim divirtam-se com as dicas e boa sorte na escolha<p></h2></li></center>
+	<br>
+    <center><li><a href="#cap01">Roupas</a></li>
+    <li><a href="#cap02">Sapatos</a></li>
+	<li><a href="#cap03">Acessórios de cabelo</a></li></center>
+</body>
+</html>
+</center>
+</div>
+</br>
+
+
+
+<div id="cadastro">
+
+<h3>Fazer login</h3>
+	<br /><br />
+	<form method="post" onsubmit="return checkFormLogin()" id="formlogin" action="">
+		<table width="100%" border="0" style="float: left;">
+			<tr>
+				<td width="20">&nbsp;</td>
+				<td width="120">Digite seu e-mail:</td>
+				<td><input size="45" type="text" name="email" id="email" /></td>
+			</tr>
+			<tr>
+				<td width="20">&nbsp;</td>
+				<td>Senha:</td>
+				<td><input size="45" type="password" name="senha" id="senha" /></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><button onclick="submitForm('formlogin','_self');">fazer login</button></td>
+			</tr>
+		</table>
+	</form>
+	</div>
+	
+	
+	
+	
+	
+	<h3>Cadastre-se já</h3>
+	<table width="100%" border="0"style="float: left;">
+			<tr>
+				<td width="20">&nbsp;</td>
+				<td width="120">Digite seu e-mail:</td>
+				<td><input size="45" type="text" name="email" id="semail" /></td>
+			</tr>
+	<br /><br />
+	<form method="post" onsubmit="return checkFormCadastro()" id="formcadastro" ">
+	<table width="400" border="0" cellpadding="3" cellspacing="1"style="float: left;">
+		<tr>
+			<td width="10" rowspan="7">&nbsp;</td> <!--O &nbsp; faz um espaço em branco.-->
+			<td align="right">Nome:</td>
+			<td colspan="3"><input style="width:350px;"  type="text" name="nome" id="nome" value="" /></td>
+			<td width="10" rowspan="7">&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="right"><label>Email:</label></td>
+			<td colspan="3"><input style="width:350px;" type="text" name="email" id="cemail" value="" /></td>
+		</tr>
+		<tr>
+			<td align="right"><label>Senha:</label></td>
+			<td colspan="3">
+			<input style="width:105px;" type="password" name="senha" id="csenha" value="" />
+		</tr>
+		
+			<td align="right"><label>Sexo:</label></td>
+			<td><select   name="sexo" id="sexo"><option  value="1">Homem</option><option  value="2">Mulher</option></select></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan="3"><button onclick="submitForm('formcadastro','_self');">realizar cadastro</button></td>
+		</tr>
+		<input type="hidden" name="cart" value="" />
+	</table>
+	</form>
+
+	
+	
+	
+	
+	
+	
+
+<div id="rodape">
+
+<center><a name="cap01"/>
+	<h2> Roupas</h2>
+	<p><ul type ="circle">
+	<li> Vestidos são a ultima moda neste inverno, como também o uso de roupas pesadas e estampas em xadrex retrô.</li>
+	<li>Saias de cintura alta, estão dando toque clássico no guarda-roupa das mulheres brasileiras.</li>
+	<li>Sapatilhas são os sapatos que substituíram o salto alto, com vários modelos e formas elegantes que pode se usar casualmente</li>
+	</ul></p>
+	<p><a href="http://www.google.com"><img src="Imagens/02.jpg" alt="Google" width="500" height="328"/></a></p></center>
+	
+	<center><a name="cap02"/>
+	<h2> Sapatos</h2>
+	<p>São a sensação do momento entre as mulheres, pois ele é o que faz de uma mulher se sentir bela e cheia de estilo.</li>
+	<p><a href="http://www.google.com"><img src="Imagens/03.jpg" alt="Google" width="500" height="328"/></a></p>
+	</ul></p></center>
+	<br>
+	<br>
+	
+	<center><a name="cap03"/>
+	<h2> Acessórios de cabelo</h2>
+	<p>Iremos ver os estilos de acessórios que fazem o penteado da mulher mais lindo do mundo, com simplicidade e beleza.</li>
+	<p><a href="http://www.google.com"><img src="Imagens/04.jpg" alt="Google" width="500" height="328"/></a></p></center>
+	</ul></p>
+	
+	
+</div>
+</center>
+
+</body>
+
+
+</html>
+
